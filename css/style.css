@@ -20,6 +20,7 @@ header {
     
 }
 
+
 .header-cointaner {
       
     width: 90%;
@@ -73,6 +74,10 @@ ul {
 
 main { margin-top: 30px;
 
+}
+
+a {
+    color: #0061FF;
 }
 .jumbotron {
    
@@ -340,3 +345,36 @@ main { margin-top: 30px;
     margin-bottom: 20px;
     font-size: 30px;
 }
+
+.university {
+    width: 100vw;
+}
+
+.block {
+    
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border: 2px solid black;
+   
+}
+.first-row {
+    display: flex;
+    justify-content: flex-start;
+    width: calc(100vw/3);
+    height: calc(100vh/3);
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.block img {
+    max-width: 30%;
+    max-height: 50%;
+    text-align: center;
+    
+}
+
+
+
