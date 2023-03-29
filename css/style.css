@@ -26,7 +26,7 @@ header {
     width: 90%;
     height: 30px;
     margin: 0 auto;
-    font-size: 8px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,11 +92,13 @@ a {
 
 .jumbotron-flex {
     background-color: #B4D0E7;
+    height: 250px;
     display: flex;
     
     
 }
 .cointaner-jumbotron {
+    
     width: 80%;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -215,6 +217,10 @@ a {
 
 .margin10px {
     margin-top: 10px;
+}
+
+.fa-user {
+    display: inline-block; 
 }
 
 .grey {
