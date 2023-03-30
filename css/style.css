@@ -241,6 +241,12 @@ a {
     gap: 30px;
 }
 
+.table-container {
+    display: flex;
+    gap: 3px;
+    justify-content: flex-start;
+
+}
 .margin10px {
     margin-top: 10px;
 }
